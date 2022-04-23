@@ -9,4 +9,4 @@ class exercise5_3
         }
         System.out.println("sum="+sum);//sum값을 받아서 출력한다
     }
-}
+}// 이코드는 배열안에 있는값을 다더하는 코드이다.
