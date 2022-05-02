@@ -2,7 +2,7 @@ public class exercise4_6
 {
     public static void main(String[] args) 
     {
-        int sum=0;//sum을 초기화후 재정의
+        int sum=0;//변수 sum을 선언후 0으로 초기화
         for(int i=1;i<=6;i++)//i가 1부터 시작해서 6까지 증가하고 그때까지 for문은 계속돈다
         {
             for(int j=1;j<=6;j++)//j가 1부터 시작해서 6까지 증가하고 그때까지 for문은 계속돈다 
