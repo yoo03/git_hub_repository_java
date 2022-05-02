@@ -8,10 +8,10 @@ class exercise5_12
 			{"chair", "의자"},
 			{"computer", "컴퓨터"},
 			{"integer", "정수"}
-		};//문자열에 대한 배열의 선언과 초기화
+		};//문자열에 대한 배열 words의 선언과 초기화
 		
 		Scanner scanner = new Scanner(System.in);//scanner에 대한 정의, 입력기의 정의
-		int count = 0;//변수의 초기화및 재정의
+		int count = 0;//변수 count에 대한 선언과 초기화
 		
 		for (int i=0; i<words.length; i++) {//i는 0부터 시작해서 word배열의 길이만큼 증가하고 그동안 for문은 중단되지않는다
 			System.out.printf("Q%d. %s의 뜻은? ", i+1, words[i][0]);/*i+1인이유는 번지수가 0부터 시작하기 때문이고
