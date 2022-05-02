@@ -2,8 +2,8 @@ class exercise4_3
 {
     public static void main(String[] args)
      {
-         int sum=0;//sum을 초기화후 재정의
-         int value=0;//value를 초기화후 재정의
+         int sum=0;//변수 sum을 선언하고 0으로 초기화
+         int value=0;//변수 value를 선언하고 0으로 초기화
     for(int i=1; i<=10; i++)//i는 1부터 시작해서 10까지 증가하고 그때까지 for문은 계속돈다
      {
       sum+=i;//sum에 i가 계속해서 더해지고
