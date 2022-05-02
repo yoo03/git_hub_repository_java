@@ -1,8 +1,8 @@
 class exercise4_9
 {
     public static void main(String[] args) {
-        String str="12345";//문자열 str을 초기화후 재정의
-        int sum=0;//sum을 초기화후 재정의
+        String str="12345";//문자열 str을 선언후 "12345"로 초기화
+        int sum=0;//변수 sum을 선언후 0으로 초기화
 
         for(int i=0; i<str.length();i++)//i는 0부터 시작해서 문자열의 길이인 5만큼까지 돌아가고 그때까지 for문은 돌아간다
         {
