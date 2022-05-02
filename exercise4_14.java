@@ -2,8 +2,8 @@ class exercise4_14
 {
     public static void main(String[] args) {
         int answer=(int)(Math.random()*100)+1;//100까지 범위의 랜덤상수를 answer를 초기화시키고 재정의하면서 넣기
-        int input =0;//input을 초기화하고 재정의
-        int count =0;//count를 초기화하고 재정의
+        int input =0;//변수 input을 선언하고 0으로 초기화
+        int count =0;//변수 count를 선언하고 0으초 초기화
 
         java.util.Scanner s= new java.util.Scanner(System.in);//Scanner에 대한 정의
 
