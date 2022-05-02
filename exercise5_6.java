@@ -1,8 +1,8 @@
 class exercise5_6{
     public static void main(String[] args) {
-        int[] coinUnit={500, 100, 50, 10};//coinUnit 배열에 대한 정의
+        int[] coinUnit={500, 100, 50, 10};//coinUnit 배열에 대한 선언과 {500, 100, 50, 10}로 초기화
 
-        int money=2680;//변수의 초기화및 재정의
+        int money=2680;//변수 money의 선언과 2680으로 초기화
         System.out.println("money="+money);//money의 값을 받고 출력
 
         for (int i=0;i<coinUnit.length; i++){//i는 0부터 coinUnit배열의 길이만큼 증가하며 그동안 for문은 지속된다 
