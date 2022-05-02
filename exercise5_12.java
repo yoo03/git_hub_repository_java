@@ -8,7 +8,7 @@ class exercise5_12
 			{"chair", "의자"},
 			{"computer", "컴퓨터"},
 			{"integer", "정수"}
-		};//문자열에 대한 배열의 정의
+		};//문자열에 대한 배열의 선언과 초기화
 		
 		Scanner scanner = new Scanner(System.in);//scanner에 대한 정의, 입력기의 정의
 		int count = 0;//변수의 초기화및 재정의
